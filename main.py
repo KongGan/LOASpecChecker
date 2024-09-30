@@ -188,7 +188,7 @@ def read_json(json_files):
 def show_info(accs, names, jobs, weapon_strongs, _num_gears, _num_accessorys, engravings, cards, gems, arkpassives):
     for i in range(4):
         if names[i] is None:
-            print("인식 실패 또는 빈칸")
+            print("인식 실패 또는 빈 칸")
             print(f"=================================================")
         else:
             name = names[i]
